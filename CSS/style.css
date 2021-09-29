@@ -1,0 +1,187 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+section{
+  padding: 75px;
+}
+.homepage{
+  position: relative;
+  min-height: 100vh;
+  background: url(../images/city.jpg);
+  background-size: cover;
+  background-position: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.homepage h2{
+  font-size: 3em;
+  color: white;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+.homepage h2 span{
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.button{
+  position: relative;
+  background: #0077B6;
+  display: inline-block;
+  color: white;
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 500;
+  border-radius: 10px 10px 10px 10px;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.6s;
+}
+header.sticky{
+  background: #CAF0F8;
+  padding: 20px 100px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+header .topleft{
+  color: white;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+header.sticky .topleft{
+  color: black;
+}
+header ul{
+  position: relative;
+  display: flex;
+}
+header ul li{
+  position: relative;
+  list-style: none;
+}
+header ul li a{
+  position: relative;
+  display: inline-block;
+  margin: 0 20px;
+  color: white;
+  text-decoration: none;
+}
+header.sticky ul li a{
+  color: black;
+}
+
+.topbar{
+  background: #00B4D8;
+}
+
+.profile{
+  background-color: #CAF0F8;
+}
+
+.heading{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  color: black;
+}
+.heading h2{
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.content{
+  display: flex;
+  justify-content: space-between;
+}
+.textcontent{
+  padding-right: 30px;
+  text-align: justify;
+}
+.textcontent h3{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.w36{
+  min-width: 36%;
+}
+img{
+  border-radius: 10px 10px 10px 10px;
+  max-width: 100%;
+}
+.imgsplash{
+  width: 50%;
+}
+.imgcenter{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  width: 20%;
+}
+
+.desc{
+  background-color: #CAF0F8;
+}
+.desc p{
+  font-size: 18px;
+}
+
+.heading.white{
+  color: white;
+}
+.textcontent.white{
+  color: white;
+}
+
+.color1{
+  background-color: #CAF0F8;
+}
+.color1 p{
+  font-size: 18px;
+}
+
+.color2 {
+  background-color: #00B4D8;
+}
+.color2 p{
+  font-size: 18px;
+}
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: #fff;
+}
+.preloader .loading {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  font: 14px arial;
+}
